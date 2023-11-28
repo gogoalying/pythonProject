@@ -8,7 +8,7 @@ plt.rcParams['font.family'] = 'SimSun'
 image_folder = r"E:\DataSet\FG-NET\pai\Images"
 
 # 创建空字典用于存储分类统计结果
-classification = {}
+classification = {1}
 
 # 获取图片文件名列表
 image_files = glob.glob(os.path.join(image_folder, "*.jpg"))  # 包含 "/path/to/images" 文件夹下所有以 ".jpg" 结尾的文件路径 返回图片名称的列表
